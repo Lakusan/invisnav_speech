@@ -5,7 +5,6 @@ title: Welcome
 info: |
   ## Slides of Speech on 12th March 2025 @ XR-Symposium SRH University Heidelberg
   Learn more about me at [AboutMe](https://lakusan.github.io/portfolio/)
-class: 
 drawings:
   persist: false
 transition: slide-left
@@ -32,7 +31,7 @@ Layout wie von der Vorlage machen des einen Templates -->
 <div class="items-center relative top-[-40px]">
   <p>
     XR-Syposium 12.03.2025 
-    <img src="./SRH_Logo_sRGB_Orange_150dpi.png" alt="Image Description" class="inline w-8 h-6 align-">
+    <img src="/SRH_Logo_sRGB_Orange_150dpi.png" alt="Image Description" class="inline w-8 h-6 align-">
     Universiy Heidelberg von Andreas Lakus
   </p>
 </div>
@@ -41,8 +40,8 @@ Layout wie von der Vorlage machen des einen Templates -->
   <img src="./hero.png" alt="Rounded Hero Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl">
   <img src="./map.png" alt="Rounded Hero Image" class="w-200 h-120 place-self-center">
 </div> -->
-  <img src="./hero.png" alt="Rounded Hero Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl relative top-[+50px]">
-  <img src="./map.png" alt="Rounded Hero Image" class="w-200 h-120 relative bottom-[200px] left-[60px]">
+  <img src="/hero.png" alt="Rounded Hero Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl relative top-[+50px]">
+  <img src="/map.png" alt="Rounded Hero Image" class="w-200 h-120 relative bottom-[200px] left-[60px]">
 <!-- <div class="grid grid-cols-2 gap-4 justify-start items-start p-4 bg-green">
 </div> -->
 <!-- <div class="flex justify-center items-center h-50 w-50 relative top-[-100px]">
@@ -76,7 +75,7 @@ transition: slide-left
 
 # Navigation
 
-<img src="./comparison_gps_indoor.png" />
+<img src="/comparison_gps_indoor.png" />
 
 <div grid="~ cols-2 gap-2" m="t-2 ">
 <div class="text-m text-neutral-200" v-after="10">
