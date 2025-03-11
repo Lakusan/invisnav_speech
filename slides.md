@@ -1,6 +1,5 @@
 ---
 theme: seriph
-# background: ./comparison_gps_indoor.png
 title: Welcome 
 info: |
   ## Slides of Speech on 12th March 2025 @ XR-Symposium SRH University Heidelberg
@@ -10,52 +9,23 @@ drawings:
 transition: slide-left
 mdc: true
 ---
-<!-- 
-# Collaborative Visual Positioning System
-## Effiziente räumliche Rekonstruktion und XR-gestützte Navigation mit ARCore und Unity Engine.
-Layout wie von der Vorlage machen des einen Templates -->
-<!-- <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div> -->
-
-<!-- <div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div> -->
 
 <!-- Hero -->
 <div class="items-center relative top-[-40px]">
   <p>
     XR-Syposium 12.03.2025 
-    <img src="/SRH_Logo_sRGB_Orange_150dpi.png" alt="Image Description" class="inline w-8 h-6 align-">
+    <img src="/SRH_Logo_sRGB_Orange_150dpi.png" alt="Image Description" class="inline w-6 h-5 pb-1">
     Universiy Heidelberg von Andreas Lakus
   </p>
 </div>
-
-<!-- <div class="grid grid-cols-2 gap-4 justify-start items-start p-4 bg-green">
-  <img src="./hero.png" alt="Rounded Hero Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl">
-  <img src="./map.png" alt="Rounded Hero Image" class="w-200 h-120 place-self-center">
-</div> -->
-  <img src="/hero.png" alt="Rounded Hero Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl relative top-[+50px]">
-  <img src="/map.png" alt="Rounded Hero Image" class="w-200 h-120 relative bottom-[200px] left-[60px]">
-<!-- <div class="grid grid-cols-2 gap-4 justify-start items-start p-4 bg-green">
-</div> -->
-<!-- <div class="flex justify-center items-center h-50 w-50 relative top-[-100px]">
-  <img src="./hero.png" alt="Rounded Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl">
-</div> -->
-
-
-
+<img src="/hero.png" alt="Rounded Hero Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl relative top-[+50px]">
+<img src="/map.png" alt="Rounded Hero Image" class="w-200 h-120 relative bottom-[200px] left-[60px]">
 <div class="mb-4 absolute bottom-4 left-12">
   <span class="text-3xl text-primary-lighter text-opacity-80 text-left" style="font-weight:500;">
     Effiziente räumliche Rekonstruktion und XR-gestützte Navigation
   </span>
-  <div class="text-6xl text-white text-opacity-60 text-left" style="font-weight:600;">
-    Mit ARCore und Unity Engine
+  <div class="text-6xl text-white text-opacity-80 text-left" style="font-weight:600;">
+    mit ARCore und Unity Engine
   </div>
   </div>
 
@@ -71,24 +41,123 @@ zoom: 0.68
 
 ---
 transition: slide-left
+layout: default
 ---
 
-# Navigation
-
-<img src="/comparison_gps_indoor.png" />
-
-<div grid="~ cols-2 gap-2" m="t-2 ">
-<div class="text-m text-neutral-200" v-after="10">
-<span  v-after="1000" v-mark.circle.orange="2">Text</span>
-<span  v-after="1000" v-mark.underline.orange="2">Text</span>
-Navigation (GPS)**Text-based** - focus on the content with Markdown, and then style them later
+<!-- HEADER -->
+<div class="grid grid-cols-3 w-full h-10 relative top-[-40px]">
+  <div class="flex items-center">
+      <img src="/hero.png" class="h5 mr-1"/>
+    <p class="text-xs text-neutral-400">
+      Andreas.Lakus@googlemail.com
+    </p>
+  </div>
+  <div class="text-center text-xs text-neutral-400 col-start-2 row-start-1 h-full flex items-center justify-center">
+    12.03.2025
+  </div>
+  <div  class="flex justify-end items-center">
+  <img src="/SRH_Logo_sRGB_Orange_150dpi.png" alt="Image Description" class="h-5">
+  </div> 
 </div>
-<div>
-test
+<!-- HEADER END  -->
+
+<!-- CONTENT -->
+<div class="text-amber-400 text-4xl mb-1">
+Navigationsprobleme
 </div>
+
+<img src="/comparison_gps_indoor.png"/>
+
+  <div class="h-20" grid="~ cols-2 gap-2" m="t-2">
+  <div class="text-2xl">
+    <ul>
+      <li>Signalabhängig</li>
+    </ul>
+  </div>
+  <div class="text-2xl">
+    <ul>
+      <li>Integriert in Infrastruktur</li>
+      <li>Hohe Kosten</li>
+      <li>Time to Market lang</li>
+    </ul>
+  </div>
 </div>
 
 
+<!-- FOOTER -->
+<div class="w-full h-5 relative bottom-[-30px] flex justify-end">
+  
+  <SlideCurrentNo/>/<SlidesTotal class="text-neutral-400"/>
+</div>
+---
+title: Anforderungen
+layout: default
+transition: slide-left
+---
+
+<!-- HEADER -->
+<div class="grid grid-cols-3 w-full h-10 relative top-[-40px]">
+  <div class="flex items-center">
+      <img src="/hero.png" class="h5 mr-1"/>
+    <p class="text-xs text-neutral-400">
+      Andreas.Lakus@googlemail.com
+    </p>
+  </div>
+  <div class="text-center text-xs text-neutral-400 col-start-2 row-start-1 h-full flex items-center justify-center">
+    12.03.2025
+  </div>
+  <div  class="flex justify-end items-center">
+
+  <img src="/SRH_Logo_sRGB_Orange_150dpi.png" alt="Image Description" class="h-5">
+  </div> 
+</div>
+<!-- HEADER END  -->
+<div class="text-amber-400 text-4xl mb-1">
+Anforderungen
+</div>
+
+
+<div class="flex h-380px w-850px quote-box">
+<ul class="space-y-4 pt-5">
+<li class="text-2xl">📲 Mobil: Cross-Platform mobile App </li>
+<li class="text-2xl">👷 Infrastruktur - Keine Itegration eines Leitsystems</li>
+<li class="text-2xl">🗂️ Souverän - Minimalistisches Datenmodell in In-Memory-DB</li>
+<li class="text-2xl">🛠 Anpassbar und Modular - Seperation of Concerns und Objektbasiert</li>
+<li class="text-2xl">🛡️ Datenschutz - Minimalistische Datenspeicherung</li>
+</ul>
+</div>
+
+<style>
+  .quote-box {
+    background-color: #1B1B1B;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), inset 1px 1px 5px rgba(255, 255, 255, 0.3); /* 3D shadow effect */
+    text-align: start;
+    margin: 1rem auto;
+  }
+</style>
+
+
+<!-- FOOTER -->
+<div class="w-full h-5 relative bottom-[10px] flex justify-end">
+  
+  <SlideCurrentNo/>/<SlidesTotal class="text-neutral-400"/>
+</div>
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 transition: fade-out
