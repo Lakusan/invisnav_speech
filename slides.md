@@ -1,39 +1,95 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
-title: Welcome to Slidev
+# background: ./comparison_gps_indoor.png
+title: Welcome 
 info: |
   ## Slides of Speech on 12th March 2025 @ XR-Symposium SRH University Heidelberg
-  
-
   Learn more about me at [AboutMe](https://lakusan.github.io/portfolio/)
-class: text-center
+class: 
 drawings:
   persist: false
 transition: slide-left
 mdc: true
 ---
-
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
+<!-- 
+# Collaborative Visual Positioning System
+## Effiziente räumliche Rekonstruktion und XR-gestützte Navigation mit ARCore und Unity Engine.
+Layout wie von der Vorlage machen des einen Templates -->
+<!-- <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
-</div>
+</div> -->
 
-<div class="abs-br m-6 text-xl">
+<!-- <div class="abs-br m-6 text-xl">
   <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
     <carbon:edit />
   </button>
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
+</div> -->
+
+<!-- Hero -->
+<div class="items-center relative top-[-40px]">
+  <p>
+    XR-Syposium 12.03.2025 
+    <img src="./SRH_Logo_sRGB_Orange_150dpi.png" alt="Image Description" class="inline w-8 h-6 align-">
+    Universiy Heidelberg von Andreas Lakus
+  </p>
 </div>
+
+<!-- <div class="grid grid-cols-2 gap-4 justify-start items-start p-4 bg-green">
+  <img src="./hero.png" alt="Rounded Hero Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl">
+  <img src="./map.png" alt="Rounded Hero Image" class="w-200 h-120 place-self-center">
+</div> -->
+  <img src="./hero.png" alt="Rounded Hero Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl relative top-[+50px]">
+  <img src="./map.png" alt="Rounded Hero Image" class="w-200 h-120 relative bottom-[200px] left-[60px]">
+<!-- <div class="grid grid-cols-2 gap-4 justify-start items-start p-4 bg-green">
+</div> -->
+<!-- <div class="flex justify-center items-center h-50 w-50 relative top-[-100px]">
+  <img src="./hero.png" alt="Rounded Image" class="rounded-full w-48 h-48 shadow-lg bg-slate-800 border-5 border-amber-400 shadow-4xl">
+</div> -->
+
+
+
+<div class="mb-4 absolute bottom-4 left-12">
+  <span class="text-3xl text-primary-lighter text-opacity-80 text-left" style="font-weight:500;">
+    Effiziente räumliche Rekonstruktion und XR-gestützte Navigation
+  </span>
+  <div class="text-6xl text-white text-opacity-60 text-left" style="font-weight:600;">
+    Mit ARCore und Unity Engine
+  </div>
+  </div>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
+
+---
+layout: iframe
+url: https://lakusan.github.io/portfolio/
+zoom: 0.68
+---
+
+---
+transition: slide-left
+---
+
+# Navigation
+
+<img src="./comparison_gps_indoor.png" />
+
+<div grid="~ cols-2 gap-2" m="t-2 ">
+<div class="text-m text-neutral-200" v-after="10">
+<span  v-after="1000" v-mark.circle.orange="2">Text</span>
+<span  v-after="1000" v-mark.underline.orange="2">Text</span>
+Navigation (GPS)**Text-based** - focus on the content with Markdown, and then style them later
+</div>
+<div>
+test
+</div>
+</div>
+
+
 
 ---
 transition: fade-out
