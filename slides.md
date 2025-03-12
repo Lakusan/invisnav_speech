@@ -123,7 +123,7 @@ Anforderungen
 <div class="flex h-380px w-850px quote-box">
 <ul class="space-y-4 pt-5">
 <li class="text-2xl">📲 Mobil: Cross-Platform mobile App </li>
-<li class="text-2xl">👷 Infrastruktur - Keine Itegration eines Leitsystems</li>
+<li class="text-2xl">👷 Infrastruktur - Keine Integration eines Leitsystems</li>
 <li class="text-2xl">🗂️ Souverän - Minimalistisches Datenmodell in In-Memory-DB</li>
 <li class="text-2xl">🛠 Anpassbar und Modular - Seperation of Concerns und Objektbasiert</li>
 <li class="text-2xl">🛡️ Datenschutz - Minimalistische Datenspeicherung</li>
@@ -301,7 +301,7 @@ const showContent = (buttonNumber) => {
       <li class="text-1xl">Rytrace settzt Anchor</li>
       <li class="text-1xl">Anchor sucht MapComponent und registerit sich </li>
       <li class="text-1xl">Camera nutzt tracker, der Pfad zum Anchor geniert</li>
-      <li class="text-1xl">Wenn der Pfad gültig ist, fügt sich Anchor der Karte hinzu</li>
+      <li class="text-xl">Wenn der Pfad gültig ist, fügt sich Anchor der Karte hinzu</li>
     </ul>
     <div class="flex justify-center pt-8">
       <img src="/anchor.png" alt="Anchor img" class="object-contain">
@@ -390,16 +390,16 @@ title: Ausblick
 <!-- HEADER END  -->
 
 <div class="text-amber-400 text-4xl mb-1">
-Auslick
+Ausblick
 </div>
 
 <div class="flex h-380px w-850px quote-box">
 <ul class="space-y-4 pt-5">
 <li class="text-2xl">Leitsystem für visuell eingeschränkte Personen </li>
-<li class="text-2xl">Kombiniert mit Objekterkennung topologische Kartengenerierung und Raumkathegorisierung</li>
-<li class="text-2xl">Kariterung öffentlicher Einrichtungen</li>
-<li class="text-2xl">Kariterung temorärer Einrichtungen</li>
-<li class="text-2xl">Kombiniert mit GPS-Navigation Navitgation bis zum Büro</li>
+<li class="text-2xl">Kombiniert mit Objekterkennung => topologische Kartengenerierung und Raumklassifikation</li>
+<li class="text-2xl">Kartierung öffentlicher Einrichtungen</li>
+<li class="text-2xl">Kartierung temporärer Einrichtungen</li>
+<li class="text-2xl">Kombiniert mit GPS-Navigation => Nahtlos bis zum Service navigieren </li>
 </ul>
 </div>
 
@@ -439,7 +439,7 @@ title: Ende
     <div class="flex justify-center mb-3">
       <img src="/qr_code.png" alt="MAP" class="w-72 object-contain">
     </div>
-      Andreas@Lakus@googlemail.com
+      Andreas.Lakus@googlemail.com
   </div>
 </div>
 
